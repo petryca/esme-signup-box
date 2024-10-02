@@ -52,7 +52,8 @@ body {
 }
 
 .icon-list li::before {
-    content: url(media/task_alt_24dp_75FB4C_FILL0_wght400_GRAD0_opsz24.svg);
+    content: url(media/icon.svg);
+
 }
 
 form {
@@ -83,4 +84,27 @@ button {
     padding: 0.8rem 1rem;
     border: none;
     border-radius: 12px;
+}
+
+@media (min-width: 600px) {
+
+    html {
+        font-size: 18px;
+    }
+
+    .subscribe-box {
+        grid-template-columns: 1fr 1.2fr;
+        min-height: auto;
+    }
+
+}
+
+@media (min-width: 1000px) {
+
+    .subscribe-box {
+        width: 1000px;
+        border-radius: 1rem;
+        overflow: hidden;
+    }
+
 }
